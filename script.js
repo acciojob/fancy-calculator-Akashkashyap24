@@ -1,11 +1,10 @@
-//your JS code here. If required.
- function sum(value1,value2) {
- 	let mul=value1*2;
-	 let result=mul+value2;
-	 return result;
+ function result(value1,value2) {
+   let ans=(value1*2)+value2; 	
+	 return ans;
  }
-let value1 = prompt("enter the value1");
-let value2 = prompt("enter the value2");
-alert("The final result is: "+ sum());
+let value1 = parseInt(prompt(enter the value1));
+ let value2 = parseInt(prompt(enter the value2));
+ alert("The final result is: "+ result());
+
 
 
